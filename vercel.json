@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/user/:path*",
+      "source": "/users/:path*",
       "destination": "http://136.68.73.109/user/:path*"
     },
     {
