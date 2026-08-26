@@ -1,6 +1,18 @@
 {
   "rewrites": [
     {
+      "source": "/user/:path*",
+      "destination": "http://136.68.73.109/user/:path*"
+    },
+    {
+      "source": "/catalog/:path*",
+      "destination": "http://136.68.73.109/catalog/:path*"
+    },
+    {
+      "source": "/delivery/:path*",
+      "destination": "http://136.68.73.109/delivery/:path*"
+    },
+    {
       "source": "/(.*)",
       "destination": "/"
     }
